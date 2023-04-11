@@ -1,0 +1,159 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+ .carousel-inner img {
+    width: 100%;
+    height: 90vh;
+  }
+
+body {    
+    background-image: url('image.jpg');     
+    background-repeat: no-repeat;     
+    background-size: cover;     
+    font-family: "Lato", sans-serif;
+ 
+    
+}
+#particles-js
+{
+    
+    height: 200%;
+   
+    
+}
+.login-box{
+    min-width: 700px;
+    margin: 10% 0% 0% 28%;
+    position: absolute;
+}
+.reg-box{
+    min-width: 700px;
+    margin: 5% 0% 0% 25%;
+    position: absolute;
+}
+.login-left{
+    background: rgba(211,211,211,0.17);
+    padding: 30px;
+    left: auto;
+}
+.login-right{
+    
+    padding: 30px;
+    right: auto;
+    
+}
+.form-control{
+    background-color: transparent;  
+}
+
+.login-left .form-control {
+    height: 27px;
+    padding: 0px 0px;
+}
+.login-box .login-left .form-control {
+    width: 75%;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: auto;
+
+}
+
+.right {
+float: right;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+a{
+    color: #fff;
+    
+}
+.form-control .img{
+     min-width: 700px;
+    margin: 5% 0% 0% 25%;
+    position: absolute;
+    
+}
+
+h1{
+    
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+label,input{
+    display: block;
+}
+label{
+    margin-top: 0px;
+}
+.login-left .btn{
+    padding: 4px 30px;
+    font-size: 15px;
+}
+@import "compass/css3";
+
+* {box-sizing: border-box;}
+
+
+/*
+body {
+  padding: 20px;
+}
+*/
+
+/*
+ul {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  
+  border: 2px solid #ccc;
+  
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  
+  // Again, this is where the magic happens
+  -webkit-overflow-scrolling: touch;
+}
+
+li {
+  padding: 10px 20px;
+  
+  border-bottom: 1px solid #ccc;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+  
+  &:nth-child(even) {
+    background: #f8f8f8;
+  }
+}
+*/
